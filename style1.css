@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    /* width: 100%; */
+    /* height: 100vh; */
+
+}
+.container{
+    width: 760px;
+    margin: auto;
+    overflow: hidden;
+    background-color:green;
+    padding: 20px;
+
+}
+.box1{
+
+    width: 100%;
+    height: 60px;
+    float: left;
+    background-color: pink
+}
+.box2{
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: aliceblue;
+    margin-top: 10px;               /*   margin have 4 value 10px=is margin top; 5px= is margin left; 8px= is margin button; 15px= is right*/
+    margin-bottom: 10px;
+}
+.box3{
+    width: 65%;
+    float: left;
+    background-color: red;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+.box3-1{
+    width: 100%;
+    height: 150px;
+    background-color: aliceblue;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    
+}
+.box3-1:last-child{
+    margin-bottom: 0;
+}
+.box3-1-1{
+    width: 65%;
+    height: 100%;
+    background-color: yellow;
+    float: left;
+}
+
+.box3-1-2{
+    width: 35%;
+    height: 100%;
+    float: left;
+    background-color: black;
+
+
+}
+    
+.box4{
+    width: 30%;
+    float: right;
+    background-color: yellow;
+    padding: 10px;
+    box-sizing: border-box;   /*   box-sizing: border-box use for don't give box រីកចេញេពីអ្វីដែរយើងមិនចង់បាន*/
+    
+
+}
+.box4-1{
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: rebeccapurple;
+    margin-bottom:10px ;
+}
+.box4-1:last-child{   /*   box4-1: last-child use for give ប្រអប់ខាងលើនិងខាងក្រោមពណ៏ក្រហមនិងពណ៏សរអោយ​វាមានមានកម្រាស់ស្មើគ្នា*/
+    margin-bottom:0 ;
+}

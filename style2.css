@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 760px;
+    margin: auto;
+    overflow: hidden;
+    background-color:whitesmoke;
+    padding: 20px;
+    box-shadow: 1px 1px 5px;  /*   box-shadow  is use for give box have background color ស្រមោលពី​ខាង្រោយbox*/
+}
+.box{
+    width: 23%;
+    height: 200px;
+    float: left;
+    background-color: brown;
+    margin:  1%;
+    box-shadow: 1px 1px 5px;
+
+}
+
+.img-box{
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: antiquewhite;
+}
+
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+
+.txt-box{
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: aqua;
+}
+.txt-box p{
+    margin: 0;
+    font-size: 13px;
+}
+.menu{
+    width: 100%;
+    /* height: 50px; */
+    float: left;
+    background-color: tomato;
+}
+.menu ul{
+    list-style-type:none;    /*    list-style-type:none is use for give work home html and css give it បាត់សញ្ញាចុចៗ ... នៅពីមុខវា*/
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;   /*    Display:block is use for give box top and button itរីក */
+    padding: 20px;
+    text-decoration: none;   /*    text-decoration:none is use for ដកបន្ទាត់នៅពីក្រោមពាក្យHTML CSS and */ 
+    text-transform: uppercase;  /* text-transform is use for give អក្សរពាក្យ Home Html Css អក្សេរធំទាំងអស់*/
+    
+}
+.menu ul li a:hover{      /*    a: hover is use for give អោយវាប្តូពណ៏ពេលដែរយើងយកម៉ៅទៅចុចលើពាក្យ HTMl Css នោះ*/
+    background-color: chartreuse;
+}
+.left-menu{              /*     left-menu it is ​ជាការបង្កើតmenu ទី​២​ */
+    width: 250px;
+    background-color: aqua;
+    float: left;
+    margin-top: 10px;
+    box-shadow: 1px 1px 5px;
+    padding: 10px;
+}
+.left-menu ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+.left-menu ul li{
+    float: left;
+    width: 100%;
+    border-bottom: 3px solid dimgray; /*   border-bottom is use for put Ruler give box html Css javascreapជាដើម */
+}
+.left-menu ul li a{
+    display: block;
+    padding: 20px;
+    color: darkorange;
+    /* text-decoration: none; */
+}
+.left-menu ul li a:hover{
+    background-color: palevioletred;
+    border-left: 2px solid greenyellow;
+}
